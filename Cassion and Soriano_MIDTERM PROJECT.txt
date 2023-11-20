@@ -1,0 +1,17 @@
+# This is a simple Python program to determine if a person is eligible to vote.
+
+# Ask the user for their age
+age = int(input("Please enter your age: "))
+
+# Define the voting age
+voting_age = 18
+
+# Check if the user's age is greater than or equal to the voting age
+if age >= voting_age:
+    # If the condition is True, the user is eligible to vote
+    print("You are eligible to vote.")
+else:
+    # If the condition is False, the user is not eligible to vote
+    print("You are not eligible to vote yet. Please wait until you turn 18.")
+
+# End of the program
